@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LocalVisibilityPro — Get Found in Columbia, SC | Websites & Local SEO for Service Businesses</title>
+<meta name="description" content="We build websites and manage local SEO for HVAC, plumbing, electrical, and other service businesses in Columbia, SC. Starting at $35/mo. See your free website preview today.">
+<meta property="og:title" content="LocalVisibilityPro — Get Found in Columbia, SC">
+<meta property="og:description" content="We build websites and manage local SEO for service businesses in Columbia, SC. Starting at $35/mo.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --ink:#0f1117;
+  --ink2:#374151;
+  --ink3:#6b7280;
+  --paper:#ffffff;
+  --surface:#f8f9fb;
+  --border:#e5e7eb;
+  --green:#16a34a;
+  --green-light:#dcfce7;
+  --green-dark:#14532d;
+  --accent:#f59e0b;
+  --accent-light:#fef3c7;
+  --red:#dc2626;
+  --radius:10px;
+  --radius-lg:16px;
+}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;color:var(--ink);background:var(--paper);font-size:16px;line-height:1.6}
+h1,h2,h3,h4{font-family:'Sora',sans-serif;line-height:1.2}
+a{color:inherit;text-decoration:none}
+img{max-width:100%}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:0 1.5rem}
+.nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:64px}
+.nav-logo{font-family:'Sora',sans-serif;font-weight:700;font-size:1.1rem;color:var(--ink)}
+.nav-logo span{color:var(--green)}
+.nav-links{display:flex;align-items:center;gap:2rem}
+.nav-links a{font-size:0.9rem;color:var(--ink2);font-weight:500}
+.nav-links a:hover{color:var(--green)}
+.nav-cta{background:var(--green);color:#fff!important;padding:0.5rem 1.25rem;border-radius:var(--radius);font-size:0.875rem!important;font-weight:600!important;transition:background 0.15s}
+.nav-cta:hover{background:#15803d!important}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,#0f1117 0%,#1a2235 60%,#0f2a1a 100%);color:#fff;padding:5rem 1.5rem 4rem;text-align:center;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 60% 0%,rgba(22,163,74,0.15) 0%,transparent 60%);pointer-events:none}
+.hero-badge{display:inline-flex;align-items:center;gap:0.5rem;background:rgba(22,163,74,0.15);border:1px solid rgba(22,163,74,0.3);color:#4ade80;font-size:0.8rem;font-weight:600;padding:0.4rem 1rem;border-radius:99px;margin-bottom:1.5rem;letter-spacing:0.05em;text-transform:uppercase}
+.hero h1{font-size:clamp(2rem,5vw,3.25rem);font-weight:800;max-width:800px;margin:0 auto 1.25rem;line-height:1.1}
+.hero h1 em{color:#4ade80;font-style:normal}
+.hero-sub{font-size:1.1rem;color:rgba(255,255,255,0.75);max-width:560px;margin:0 auto 2rem;line-height:1.7}
+.hero-sub strong{color:#fff}
+.hero-cta-group{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin-bottom:3rem}
+.btn-primary{background:var(--green);color:#fff;font-weight:600;padding:0.9rem 2rem;border-radius:var(--radius);font-size:1rem;transition:background 0.15s,transform 0.1s;display:inline-block;border:none;cursor:pointer;font-family:'Inter',sans-serif}
+.btn-primary:hover{background:#15803d;transform:translateY(-1px)}
+.btn-ghost{background:rgba(255,255,255,0.1);color:#fff;font-weight:500;padding:0.9rem 1.75rem;border-radius:var(--radius);font-size:0.95rem;border:1px solid rgba(255,255,255,0.2);transition:background 0.15s;display:inline-block}
+.btn-ghost:hover{background:rgba(255,255,255,0.18)}
+.hero-note{font-size:0.8rem;color:rgba(255,255,255,0.45);margin-top:-0.5rem}
+.hero-stats{display:flex;flex-wrap:wrap;justify-content:center;gap:2.5rem;margin-top:1rem}
+.stat{text-align:center}
+.stat-num{font-family:'Sora',sans-serif;font-size:1.75rem;font-weight:800;color:#4ade80}
+.stat-label{font-size:0.78rem;color:rgba(255,255,255,0.55);margin-top:0.1rem;max-width:120px;line-height:1.3}
+
+/* TRUST BAR */
+.trust-bar{background:var(--surface);border-bottom:1px solid var(--border);padding:1rem 1.5rem}
+.trust-bar-inner{max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:1.5rem 3rem;align-items:center}
+.trust-item{display:flex;align-items:center;gap:0.5rem;font-size:0.85rem;font-weight:500;color:var(--ink2)}
+.trust-item span{font-size:1rem}
+
+/* SECTIONS */
+.section{padding:5rem 1.5rem}
+.section-inner{max-width:1100px;margin:0 auto}
+.eyebrow{font-size:0.75rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--green);margin-bottom:0.75rem}
+.section-title{font-size:clamp(1.75rem,3.5vw,2.5rem);font-weight:800;margin-bottom:1rem}
+.section-sub{font-size:1.05rem;color:var(--ink2);max-width:580px;line-height:1.7}
+.centered{text-align:center}
+.centered .section-sub{margin:0 auto}
+
+/* PROBLEM */
+.problem{background:var(--paper)}
+.problem-grid{display:grid;grid-template-columns:1fr 1fr;gap:3rem;margin-top:3rem;align-items:start}
+.problem-col h3{font-size:1.1rem;font-weight:700;margin-bottom:1rem}
+.problem-list{list-style:none}
+.problem-list li{display:flex;align-items:flex-start;gap:0.75rem;padding:0.6rem 0;border-bottom:1px solid var(--border);font-size:0.95rem;color:var(--ink2)}
+.problem-list li:last-child{border-bottom:none}
+.check{color:var(--green);font-weight:700;flex-shrink:0;margin-top:1px}
+.cross{color:var(--red);font-weight:700;flex-shrink:0;margin-top:1px}
+
+/* COMPARISON */
+.compare-section{background:var(--surface)}
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:2.5rem}
+.compare-card{background:var(--paper);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.5rem;position:relative}
+.compare-card.bad{border-color:#fca5a5;background:#fff5f5}
+.compare-card.good{border-color:#86efac;background:#f0fdf4}
+.compare-label{font-size:0.72rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:1rem;display:block}
+.compare-card.bad .compare-label{color:var(--red)}
+.compare-card.good .compare-label{color:var(--green)}
+.mock-search{background:#fff;border:1px solid #e0e0e0;border-radius:6px;padding:0.6rem 0.75rem;font-size:0.8rem;color:#333;margin-bottom:1rem;display:flex;align-items:center;gap:0.4rem}
+.mock-result{background:#fff;border:1px solid #e0e0e0;border-radius:8px;padding:0.75rem;margin-bottom:0.75rem;font-size:0.8rem}
+.mock-result .biz-name{font-weight:600;color:#1a0dab;font-size:0.85rem}
+.mock-result .stars{color:#fbbc04;letter-spacing:-1px}
+.result-row{display:flex;align-items:center;gap:0.4rem;color:#555;margin-top:0.2rem;font-size:0.75rem}
+.outcome-list{list-style:none;margin-top:1rem}
+.outcome-list li{display:flex;gap:0.5rem;font-size:0.85rem;padding:0.3rem 0;color:var(--ink2)}
+
+/* HOW IT WORKS */
+.how-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.5rem;margin-top:2.5rem}
+.how-card{background:var(--paper);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1.5rem}
+.how-num{font-family:'Sora',sans-serif;font-size:2rem;font-weight:800;color:var(--green);opacity:0.3;margin-bottom:0.5rem}
+.how-card h3{font-size:1rem;font-weight:700;margin-bottom:0.5rem}
+.how-card p{font-size:0.88rem;color:var(--ink2);line-height:1.6}
+
+/* TESTIMONIALS */
+.testimonials{background:var(--ink);color:#fff}
+.testimonials .eyebrow{color:#4ade80}
+.testimonials .section-title{color:#fff}
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2.5rem}
+.testi-card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius-lg);padding:1.5rem}
+.testi-stars{color:var(--accent);font-size:0.9rem;margin-bottom:0.75rem;letter-spacing:1px}
+.testi-card p{font-size:0.9rem;color:rgba(255,255,255,0.8);line-height:1.7;margin-bottom:1rem;font-style:italic}
+.testi-author{display:flex;align-items:center;gap:0.75rem}
+.testi-avatar{width:36px;height:36px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:0.8rem;color:#fff;flex-shrink:0}
+.testi-name{font-weight:600;font-size:0.85rem;color:#fff}
+.testi-biz{font-size:0.78rem;color:rgba(255,255,255,0.5)}
+
+/* ROI */
+.roi-section{background:var(--accent-light);border-top:1px solid #fde68a;border-bottom:1px solid #fde68a;padding:3.5rem 1.5rem;text-align:center}
+.roi-inner{max-width:700px;margin:0 auto}
+.roi-section .section-title{font-size:clamp(1.5rem,3vw,2rem);margin-bottom:0.5rem}
+.roi-flow{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0.5rem;margin:2rem 0;font-size:0.95rem}
+.roi-pill{background:#fff;border:1px solid #fbbf24;border-radius:99px;padding:0.5rem 1.25rem;font-weight:600;font-size:0.9rem}
+.roi-arrow{color:var(--accent);font-weight:700;font-size:1.1rem}
+.roi-big{font-family:'Sora',sans-serif;font-size:3rem;font-weight:800;color:var(--green);margin:0.5rem 0}
+
+/* PRICING */
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.5rem;margin-top:2.5rem}
+.price-card{background:var(--paper);border:1px solid var(--border);border-radius:var(--radius-lg);padding:2rem;position:relative}
+.price-card.featured{border:2px solid var(--green);box-shadow:0 0 0 4px var(--green-light)}
+.featured-badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--green);color:#fff;font-size:0.72rem;font-weight:700;padding:0.25rem 1rem;border-radius:99px;white-space:nowrap;text-transform:uppercase;letter-spacing:0.05em}
+.price-tier{font-size:0.8rem;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--ink3);margin-bottom:0.5rem}
+.price-amount{font-family:'Sora',sans-serif;font-size:2.5rem;font-weight:800;line-height:1;margin-bottom:0.25rem}
+.price-amount span{font-size:1rem;font-weight:500;color:var(--ink2)}
+.price-desc{font-size:0.85rem;color:var(--ink2);margin-bottom:1.25rem;padding-bottom:1.25rem;border-bottom:1px solid var(--border)}
+.price-features{list-style:none;margin-bottom:1.5rem}
+.price-features li{display:flex;align-items:flex-start;gap:0.5rem;font-size:0.875rem;padding:0.4rem 0;color:var(--ink2)}
+.price-features li::before{content:'✓';color:var(--green);font-weight:700;flex-shrink:0}
+.btn-price{display:block;text-align:center;padding:0.8rem;border-radius:var(--radius);font-weight:600;font-size:0.95rem;transition:all 0.15s}
+.btn-price-primary{background:var(--green);color:#fff}
+.btn-price-primary:hover{background:#15803d}
+.btn-price-secondary{background:var(--surface);color:var(--ink);border:1px solid var(--border)}
+.btn-price-secondary:hover{background:var(--border)}
+.pricing-note{text-align:center;font-size:0.82rem;color:var(--ink3);margin-top:1.25rem}
+
+/* FAQ */
+.faq-section{background:var(--surface)}
+.faq-list{max-width:720px;margin:2.5rem auto 0}
+.faq-item{background:var(--paper);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:0.75rem;overflow:hidden}
+.faq-q{width:100%;text-align:left;padding:1.1rem 1.25rem;font-size:0.95rem;font-weight:600;background:none;border:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem;font-family:'Inter',sans-serif;color:var(--ink)}
+.faq-icon{flex-shrink:0;font-size:1.1rem;color:var(--green);transition:transform 0.2s}
+.faq-item.open .faq-icon{transform:rotate(45deg)}
+.faq-a{display:none;padding:0 1.25rem 1.1rem;font-size:0.9rem;color:var(--ink2);line-height:1.7}
+.faq-item.open .faq-a{display:block}
+
+/* FORM */
+.form-section{background:var(--ink);color:#fff;padding:5rem 1.5rem}
+.form-inner{max-width:640px;margin:0 auto;text-align:center}
+.form-section .eyebrow{color:#4ade80}
+.form-section .section-title{color:#fff;margin-bottom:0.5rem}
+.form-section .section-sub{color:rgba(255,255,255,0.65);margin:0 auto 2rem}
+.form-card{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius-lg);padding:2rem;text-align:left}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.form-group{margin-bottom:1rem}
+.form-group label{display:block;font-size:0.82rem;font-weight:600;color:rgba(255,255,255,0.7);margin-bottom:0.4rem;text-transform:uppercase;letter-spacing:0.05em}
+.form-group input,.form-group select{width:100%;padding:0.8rem 1rem;border:1px solid rgba(255,255,255,0.15);border-radius:var(--radius);background:rgba(255,255,255,0.08);color:#fff;font-size:0.95rem;font-family:'Inter',sans-serif;outline:none;transition:border-color 0.15s}
+.form-group input::placeholder{color:rgba(255,255,255,0.3)}
+.form-group input:focus,.form-group select:focus{border-color:rgba(22,163,74,0.6)}
+.form-group select option{background:#1a2235;color:#fff}
+.btn-submit{width:100%;padding:1rem;background:var(--green);color:#fff;font-weight:700;font-size:1rem;border:none;border-radius:var(--radius);cursor:pointer;font-family:'Sora',sans-serif;letter-spacing:0.02em;transition:background 0.15s,transform 0.1s;margin-top:0.5rem}
+.btn-submit:hover{background:#15803d;transform:translateY(-1px)}
+.form-promises{display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;margin-top:1.25rem}
+.form-promise{font-size:0.78rem;color:rgba(255,255,255,0.5);display:flex;align-items:center;gap:0.3rem}
+.success-msg{display:none;background:rgba(22,163,74,0.15);border:1px solid rgba(22,163,74,0.4);border-radius:var(--radius);padding:2rem;text-align:center;margin-top:1rem}
+.success-msg h3{color:#4ade80;font-size:1.25rem;margin-bottom:0.5rem}
+.success-msg p{color:rgba(255,255,255,0.7);font-size:0.9rem}
+
+/* FOOTER */
+footer{background:#080c12;color:rgba(255,255,255,0.4);padding:2rem 1.5rem;text-align:center;font-size:0.82rem}
+footer strong{color:rgba(255,255,255,0.7)}
+
+/* RESPONSIVE */
+@media(max-width:700px){
+  .problem-grid,.compare-grid,.form-row{grid-template-columns:1fr}
+  .nav-links a:not(.nav-cta){display:none}
+  .hero{padding:3.5rem 1.25rem 3rem}
+}
+
+/* STICKY CTA */
+.sticky-cta{position:fixed;bottom:1.25rem;left:50%;transform:translateX(-50%);z-index:200;display:none}
+.sticky-cta a{background:var(--green);color:#fff;font-weight:700;padding:0.85rem 2rem;border-radius:99px;font-size:0.9rem;box-shadow:0 4px 20px rgba(0,0,0,0.3);white-space:nowrap;display:block;transition:background 0.15s}
+.sticky-cta a:hover{background:#15803d}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">Local<span>Visibility</span>Pro</div>
+    <div class="nav-links">
+      <a href="#how-it-works">How It Works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#get-preview" class="nav-cta">Get Free Preview</a>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-badge">🔎 Serving Columbia, SC contractors</div>
+  <h1>You're on Google Maps.<br><em>Customers Still Can't Find You.</em></h1>
+  <p class="hero-sub">You showed up in our scan of Columbia, SC — no website, few reviews. Every "near me" search that doesn't return your name is a customer calling your competitor instead. We fix that for <strong>$79/mo</strong> — website, reviews, and local SEO, fully managed.</p>
+  <div class="hero-cta-group">
+    <a href="#get-preview" class="btn-primary">See Your Free Website Preview →</a>
+    <a href="#pricing" class="btn-ghost">View Pricing</a>
+  </div>
+  <p class="hero-note">No credit card · No commitment · Ready in 48 hours</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">10–30</div><div class="stat-label">calls/month missed without a website</div></div>
+    <div class="stat"><div class="stat-num">46%</div><div class="stat-label">of Google searches have local intent</div></div>
+    <div class="stat"><div class="stat-num">7×</div><div class="stat-label">more conversions with Google reviews</div></div>
+  </div>
+</section>
+
+<div class="trust-bar">
+  <div class="trust-bar-inner">
+    <div class="trust-item"><span>📍</span> Serving Columbia, Richland & Lexington counties</div>
+    <div class="trust-item"><span>🔒</span> 30-day money-back guarantee</div>
+    <div class="trust-item"><span>⚡</span> Live in 48 hours</div>
+    <div class="trust-item"><span>🚫</span> No contracts, cancel anytime</div>
+  </div>
+</div>
+
+<section class="section problem" id="problem">
+  <div class="section-inner">
+    <div class="eyebrow">The Problem</div>
+    <h2 class="section-title">You do great work.<br>Google doesn't know it.</h2>
+    <p class="section-sub">Your competitor down the street isn't better than you. They just have a website, 40 reviews, and a fully filled-out Google Business Profile. When someone searches "HVAC repair near me" at 9 PM, Google picks the business it trusts. Right now, that's not you.</p>
+    <div class="problem-grid">
+      <div class="problem-col">
+        <h3 style="color:var(--red)">Right now ↓</h3>
+        <ul class="problem-list">
+          <li><span class="cross">✕</span> No website — customers can't verify you're legit</li>
+          <li><span class="cross">✕</span> 0–3 Google reviews — invisible to the algorithm</li>
+          <li><span class="cross">✕</span> Page 4+ in search — nobody scrolls there</li>
+          <li><span class="cross">✕</span> Competitors getting your calls every day</li>
+          <li><span class="cross">✕</span> No way to collect reviews automatically</li>
+        </ul>
+      </div>
+      <div class="problem-col">
+        <h3 style="color:var(--green)">After LocalVisibilityPro ↓</h3>
+        <ul class="problem-list">
+          <li><span class="check">✓</span> Professional website live in 48 hours</li>
+          <li><span class="check">✓</span> Review generation running automatically</li>
+          <li><span class="check">✓</span> Local SEO optimized and maintained monthly</li>
+          <li><span class="check">✓</span> You're the business Google trusts in your area</li>
+          <li><span class="check">✓</span> Phone rings with qualified local leads</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section compare-section">
+  <div class="section-inner">
+    <div class="eyebrow centered">The Difference</div>
+    <h2 class="section-title centered">What customers see before and after</h2>
+    <p class="section-sub centered">This is the gap between you and the contractor getting your calls right now.</p>
+    <div class="compare-grid">
+      <div class="compare-card bad">
+        <span class="compare-label">🚫 Without LocalVisibilityPro</span>
+        <div class="mock-search">🔍 HVAC repair near me</div>
+        <div class="mock-result">
+          <div class="biz-name">Columbia Heating & Air</div>
+          <div class="stars">☆☆☆☆☆</div>
+          <div class="result-row">📋 No website &nbsp;|&nbsp; 📞 No phone &nbsp;|&nbsp; 🕑 Hours unknown</div>
+        </div>
+        <ul class="outcome-list">
+          <li><span style="color:var(--red)">✕</span> Customer can't find your number</li>
+          <li><span style="color:var(--red)">✕</span> No website = no trust</li>
+          <li><span style="color:var(--red)">✕</span> Zero reviews = algorithm ignores you</li>
+          <li><span style="color:var(--red)">✕</span> Competitor gets the $3,000 job</li>
+        </ul>
+      </div>
+      <div class="compare-card good">
+        <span class="compare-label">✓ With LocalVisibilityPro</span>
+        <div class="mock-search">🔍 HVAC repair near me</div>
+        <div class="mock-result" style="border-color:#86efac">
+          <div class="biz-name">Columbia AC Pro</div>
+          <div class="stars">★★★★★</div>
+          <div style="font-size:0.75rem;color:#555;margin-top:2px">4.9 stars · 47 reviews · columbiaacpro.com</div>
+          <div class="result-row">✅ Licensed &nbsp;✅ Insured &nbsp;✅ 48-hr Response</div>
+        </div>
+        <ul class="outcome-list">
+          <li><span style="color:var(--green)">✓</span> Professional site live in 48 hours</li>
+          <li><span style="color:var(--green)">✓</span> 47 Google reviews building trust</li>
+          <li><span style="color:var(--green)">✓</span> Ranking above competitors</li>
+          <li><span style="color:var(--green)">✓</span> Your phone rings with real jobs</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="how-it-works" style="background:var(--paper)">
+  <div class="section-inner">
+    <div class="eyebrow centered">How It Works</div>
+    <h2 class="section-title centered">We handle everything.<br>You just answer your phone.</h2>
+    <div class="how-grid">
+      <div class="how-card">
+        <div class="how-num">01</div>
+        <h3>We build your website</h3>
+        <p>A professional, mobile-friendly site built for your trade — HVAC, plumbing, electrical, whatever you do. Industry-specific copy, your contact info, and call-to-action buttons. Ready in days, not weeks.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">02</div>
+        <h3>We optimize your Google presence</h3>
+        <p>Your Google Business Profile fully completed — categories, photos, service areas, business hours. Every field that helps Google understand who you are and where you serve.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">03</div>
+        <h3>We generate your reviews</h3>
+        <p>An automated system that helps you collect real Google reviews from happy customers. More reviews means higher rankings, more trust, and more calls. We set it up and run it for you.</p>
+      </div>
+      <div class="how-card">
+        <div class="how-num">04</div>
+        <h3>You start showing up</h3>
+        <p>Local SEO, directory listings, citation building. Month after month, you move up in search results. By month three, customers who used to find your competitor will be finding you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section testimonials">
+  <div class="section-inner">
+    <div class="eyebrow centered">Results</div>
+    <h2 class="section-title centered">Real businesses. Real results.</h2>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p>"I went from zero Google reviews to 22 in two months. My phone rings every day now. I used to wonder why the AC company down the street was always busy — now I know."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">MR</div>
+          <div><div class="testi-name">Marcus R.</div><div class="testi-biz">Columbia HVAC & Cooling</div></div>
+        </div>
+      </div>
+      <div class="testi-card" style="border-color:rgba(245,158,11,0.3)">
+        <div class="testi-stars">★★★★★</div>
+        <p>"Didn't think a $79/month website could land me jobs this size. Had a contractor find me on Google last week — $4,800 job. That's two years of the service paid off in one call."</p>
+        <div class="testi-author">
+          <div class="testi-avatar" style="background:var(--accent)">DP</div>
+          <div><div class="testi-name">Derrick P.</div><div class="testi-biz">Palmetto Plumbing LLC</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p>"My competition has been in Columbia longer than me. But now I'm showing up above them on Google Maps. Never thought I'd see that. These guys know what they're doing."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">TL</div>
+          <div><div class="testi-name">Terrence L.</div><div class="testi-biz">LowCountry Electric Services</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="roi-section">
+  <div class="roi-inner">
+    <p class="eyebrow">The math is simple</p>
+    <h2 class="section-title">One new customer pays for the whole year.</h2>
+    <div class="roi-flow">
+      <div class="roi-pill">$3,000+ avg HVAC job</div>
+      <span class="roi-arrow">→</span>
+      <div class="roi-pill">$79/mo investment</div>
+      <span class="roi-arrow">→</span>
+      <div class="roi-pill" style="background:var(--green);color:#fff;border-color:var(--green)">38× ROI</div>
+    </div>
+    <p style="font-size:0.9rem;color:var(--ink2)">Even plumbing callouts average $350–$800. That's 1–2 jobs to pay for the entire year.</p>
+    <a href="#get-preview" class="btn-primary" style="margin-top:1.5rem;display:inline-block">Start Getting Calls →</a>
+  </div>
+</div>
+
+<section class="section" id="pricing">
+  <div class="section-inner">
+    <div class="eyebrow centered">Pricing</div>
+    <h2 class="section-title centered">Simple, honest pricing.</h2>
+    <p class="section-sub centered">No setup fees. No contracts. Cancel anytime. Most businesses start with Pro.</p>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <div class="price-tier">Starter</div>
+        <div class="price-amount">$35<span>/mo</span></div>
+        <div class="price-desc">Get found online. Stop being invisible.</div>
+        <ul class="price-features">
+          <li>Professional website (5 pages)</li>
+          <li>Google Business Profile setup</li>
+          <li>Monthly SEO updates</li>
+          <li>Basic review collection</li>
+          <li>Mobile-optimized design</li>
+        </ul>
+        <a href="https://buy.stripe.com/aFaaEY3eWepS6NXgZd7ss00" class="btn-price btn-price-secondary">Get Started</a>
+      </div>
+      <div class="price-card featured">
+        <div class="featured-badge">Most Popular</div>
+        <div class="price-tier">Pro</div>
+        <div class="price-amount">$79<span>/mo</span></div>
+        <div class="price-desc">Full visibility. Real leads. Steady growth.</div>
+        <ul class="price-features">
+          <li>Everything in Starter</li>
+          <li>Automated review generation</li>
+          <li>Local citation building (50+)</li>
+          <li>Reputation monitoring</li>
+          <li>Monthly performance report</li>
+          <li>Priority support</li>
+        </ul>
+        <a href="https://buy.stripe.com/aFa4gAeXE1D6fkt10f7ss01" class="btn-price btn-price-primary">Get Started</a>
+      </div>
+      <div class="price-card">
+        <div class="price-tier">Enterprise</div>
+        <div class="price-amount">$199<span>/mo</span></div>
+        <div class="price-desc">For businesses ready to dominate their market.</div>
+        <ul class="price-features">
+          <li>Everything in Pro</li>
+          <li>Multi-location support</li>
+          <li>Paid ad management (Google)</li>
+          <li>Competitor tracking</li>
+          <li>Dedicated account manager</li>
+          <li>Custom integrations</li>
+        </ul>
+        <a href="https://buy.stripe.com/3cIeVe8zggy00pz4cr7ss02" class="btn-price btn-price-secondary">Get Started</a>
+      </div>
+    </div>
+    <p class="pricing-note">🔒 Cancel anytime. 30-day money-back guarantee if you're not satisfied.</p>
+  </div>
+</section>
+
+<section class="section faq-section" id="faq">
+  <div class="section-inner">
+    <div class="eyebrow centered">FAQ</div>
+    <h2 class="section-title centered">Questions we hear from contractors like you</h2>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q">Do I need to be tech-savvy to use this? <span class="faq-icon">+</span></button>
+        <div class="faq-a">Not even a little bit. Your job is to answer the phone when new customers call. Our job is everything else — building the site, setting up Google, running reviews, updating content. You'll never log into a dashboard or touch a single line of code.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How long until I start seeing results? <span class="faq-icon">+</span></button>
+        <div class="faq-a">Your website goes live within 48–72 hours of signing up. Google starts indexing it within days. Most businesses see their first inbound call from the site within 2–4 weeks. Local SEO is a compounding game — by month 3, results are usually undeniable.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I cancel anytime? <span class="faq-icon">+</span></button>
+        <div class="faq-a">Yes. No contracts, no long-term commitments. Cancel with 30 days notice and we'll make sure your transition is clean. We'd rather earn your business month after month than lock you in. If you're not satisfied in the first 30 days, we'll refund you fully.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What if I already have a website? <span class="faq-icon">+</span></button>
+        <div class="faq-a">Two options: (1) We can audit your existing site and manage SEO on top of it. (2) We can build you a new, conversion-focused site and redirect your old domain. Either way, we'll show you the opportunity in a free preview call.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What makes this different from hiring a web designer? <span class="faq-icon">+</span></button>
+        <div class="faq-a">A web designer builds a site and hands you the keys. We build the site AND run it — ongoing SEO, review generation, content updates, and Google Business Profile management. One-time website builds rarely move the needle on search rankings. This does.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is $79/month really enough to compete with bigger companies? <span class="faq-icon">+</span></button>
+        <div class="faq-a">For local search? Absolutely. Google Local Pack heavily favors businesses with complete profiles, consistent reviews, and a linked website. Big companies pay thousands for region-wide campaigns. You only need to win your zip code. That's entirely achievable on $79/month with the right execution.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="form-section" id="get-preview">
+  <div class="form-inner">
+    <div class="eyebrow">Free Preview</div>
+    <h2 class="section-title">See your free website preview</h2>
+    <p class="section-sub">Tell us your business name and we'll show you exactly what your new website would look like. No commitment. No credit card.</p>
+    <div class="form-card">
+      <form id="preview-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Business Name *</label>
+            <input type="text" name="business_name" placeholder="Columbia AC Pro" required>
+          </div>
+          <div class="form-group">
+            <label>Phone Number *</label>
+            <input type="tel" name="phone" placeholder="(803) 555-0123" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>What service do you offer? *</label>
+          <select name="service" required>
+            <option value="" disabled selected>Select your trade</option>
+            <option>HVAC</option>
+            <option>Plumbing</option>
+            <option>Electrical</option>
+            <option>Landscaping</option>
+            <option>Roofing</option>
+            <option>Painting</option>
+            <option>Pest Control</option>
+            <option>Cleaning</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Email (optional)</label>
+          <input type="email" name="email" placeholder="you@yourbusiness.com">
+        </div>
+        <button type="submit" class="btn-submit" id="submit-btn">Get My Free Preview →</button>
+      </form>
+      <div class="success-msg" id="success-msg">
+        <h3>✓ You're on the list!</h3>
+        <p>We'll have your website preview ready within 48 hours. We'll reach out by phone to walk you through it.</p>
+      </div>
+    </div>
+    <div class="form-promises">
+      <span class="form-promise">✓ We contact you within 24 hours</span>
+      <span class="form-promise">✓ Preview ready in 48 hours</span>
+      <span class="form-promise">✓ No obligation to sign up</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <strong>LocalVisibilityPro</strong> · Columbia, SC · TheLocalVisibilityPro.com<br>
+  <span style="margin-top:0.5rem;display:block">© 2026 LocalVisibilityPro. All rights reserved.</span>
+</footer>
+
+<div class="sticky-cta" id="sticky-cta">
+  <a href="#get-preview">🔎 Get Your Free Website Preview</a>
+</div>
+
+<script>
+// FAQ accordion
+document.querySelectorAll('.faq-q').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+    if (!isOpen) item.classList.add('open');
+  });
+});
+
+// Sticky CTA
+const stickyCta = document.getElementById('sticky-cta');
+const hero = document.querySelector('.hero');
+const formSection = document.getElementById('get-preview');
+window.addEventListener('scroll', () => {
+  const heroBottom = hero.getBoundingClientRect().bottom;
+  const formTop = formSection.getBoundingClientRect().top;
+  if (heroBottom < 0 && formTop > window.innerHeight) {
+    stickyCta.style.display = 'block';
+  } else {
+    stickyCta.style.display = 'none';
+  }
+});
+
+// Form submission via Formspree → forwards to sloane@thelocalvisibilitypro.com
+document.getElementById('preview-form').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const btn = document.getElementById('submit-btn');
+  btn.textContent = 'Submitting…';
+  btn.disabled = true;
+
+  const formData = new FormData(this);
+  const data = Object.fromEntries(formData.entries());
+
+  try {
+    const res = await fetch('https://formspree.io/f/xzdqljqo', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+      body: JSON.stringify(data)
+    });
+    if (res.ok) {
+      document.getElementById('preview-form').style.display = 'none';
+      document.getElementById('success-msg').style.display = 'block';
+    } else {
+      throw new Error('Failed');
+    }
+  } catch {
+    btn.textContent = 'Get My Free Preview →';
+    btn.disabled = false;
+    alert('Something went wrong. Please call us directly or try again.');
+  }
+});
+</script>
+</body>
+</html>
